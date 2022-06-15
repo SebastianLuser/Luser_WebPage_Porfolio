@@ -1,0 +1,28 @@
+header{
+    background-color: $head-color;
+    grid-area: header;
+    #lista{
+        @include flexible(center);
+        text-align: center;
+        li{
+            text-align: center;
+            background-color: $nav-color;
+            font-family: 'Roboto', sans-serif;
+            border-radius: 5px;
+            margin: 0.7rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            padding: 0.2rem;
+            &:hover{
+                background-color: cadetblue;
+            }
+            a{
+                text-decoration: none;
+                color: $text-color;
+                &:hover{
+                    color: $text-color;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#about{
+    @extend .texts;
+    h3{
+        @include flexible(center);
+        font-size: 2rem;
+    }
+    #about__card{
+        border-radius: 10px;
+        background-color: rgba(255,255,255,0.2);
+        #about__text{
+            display: flex;
+            #about__perfil{
+                img{
+                    @include dimensions(180px,240px);
+                }
+            }
+        }
+    }
+}
+
+
+

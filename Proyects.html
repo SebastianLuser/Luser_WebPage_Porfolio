@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@100&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!--icon-->
+    <script src="https://kit.fontawesome.com/a358678dcd.js" crossorigin="anonymous"></script>
+    <!-- Style link -->
+    <link rel="stylesheet" href="./styles/css/style.css">
+    <title>Porfolio_Bootstrap</title>  
+</head>
+<body>
+    <div class="box">
+        <!-- HEADER -->
+        <header> 
+            <!-- NAVEGATIONBAR -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <!-- LOGO -->
+                    <a class="navbar-brand" href="#"><img src="./Images/Logo.JPG" alt="Logo" width="240px"></a>
+                    <!-- NAV -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto nav-pills" id="lista">
+                            <li class="nav-item ">
+                                <a href="index.html" class="nav-link ">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="About.html" class="nav-link">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Proyects.html" class="nav-link">Proyects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Resume.html" class="nav-link">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>  
+        </header>
+        <!-- MAIN -->
+        <main>
+            <div class="container-fluid p-5">
+                <div class="row">
+                    <div class="offset-4 col-4">
+                        <h2>My Proyects</h2>
+                        <div  class="carousel slide" data-bs-ride="true" id="carousel">
+                            <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/Captura2.JPG" class="d-block w-100" >
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/Captura.JPG" class="d-block w-100">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+                <div class="row">
+                    <nav class="offset-lg-3 col-lg-5" id="redes">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                        </ul>
+                    </nav>
+                    <section class="offset-lg-2 col-lg-2 " id="info" >
+                        <p>mail@gmail.com</p>
+                        <p>54911342532</p>
+                    </section>
+                </div>
+        </footer>
+    </div>
+    <!-- script de js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>

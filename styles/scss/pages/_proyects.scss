@@ -1,0 +1,11 @@
+h2{
+    @include flexible(center);
+    @extend .texts;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+}
+#carousel{
+    img{
+        @include dimensions(520px,480px);
+    }
+}

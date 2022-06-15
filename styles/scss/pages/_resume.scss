@@ -1,0 +1,20 @@
+#resume{
+    @include flexible(center);
+    flex-direction: column;
+    h2{
+        @include flexible(center);
+        color: $text-color;
+        font-family: 'Courgette', cursive;
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    #cv{
+        @include flexible(center);
+        img{
+            @include dimensions(360px,480px);
+        }
+    }
+    button{
+        @include flexible(center);
+    }
+}

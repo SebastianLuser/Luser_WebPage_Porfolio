@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+//CSS Grid
+.box{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto  1fr  auto;
+    grid-template-areas: "header""main""footer";
+}
+//Bootstrap Rows
+.row{
+    margin-top: 0; 
+    margin-right: 0;
+    margin-left:0;
+}
+
+//List styles
+ul, ol{
+    list-style-type: none;
+}

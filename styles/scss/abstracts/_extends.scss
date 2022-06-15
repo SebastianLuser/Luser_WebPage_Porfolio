@@ -1,0 +1,20 @@
+//TODO:crear un extend utilizando for of para todos los h
+.texts{
+    @for $i from 1 to 6 {
+        h#{$i}{
+            padding: 0.5rem;
+            color: $text-color;
+            font-family: 'Poppins', sans-serif;
+        }
+    }
+    p{
+        padding: 0.5rem;
+        color: $text-color;
+        font-family: 'Poppins', sans-serif;
+    }
+    li{
+        padding: 0.5rem;
+        color: $text-color;
+        font-family: 'Poppins', sans-serif;
+    }
+}
