@@ -50,7 +50,7 @@ footer{
         }
     }
     #info{
-        @include flexible(end);
+        @include flexible(flex-end);
         flex-direction: column;
         color: $text-color;
     }

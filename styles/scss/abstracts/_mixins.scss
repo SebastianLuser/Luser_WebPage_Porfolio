@@ -5,7 +5,7 @@
     width: $width;
     height: $height;
 }
-@mixin flexible($direction){
+@mixin flexible($direction:center){
     display: flex;
     justify-content: $direction;
     align-items: center;

@@ -1,4 +1,5 @@
 #resume{
+    padding: 1rem;
     @include flexible(center);
     flex-direction: column;
     h2{
@@ -11,10 +12,13 @@
     #cv{
         @include flexible(center);
         img{
+            @include borde($trans-color,0.5rem);
+            border-radius: 10px;
             @include dimensions(360px,480px);
         }
     }
     button{
+        margin: 1rem;
         @include flexible(center);
     }
 }
