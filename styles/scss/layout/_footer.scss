@@ -17,13 +17,13 @@ footer{
                     position: relative;
                     @include flexible(center);
                     text-decoration: none;
-                    width: 3.5rem;
-                    height: 3.5rem;
+                    width: 2.8rem;
+                    height: 2.8rem;
                     color: $text-color;
                     font-size: 1.8em;
                     @include borde(rgba(255,255,255,0.4));
-                    border-right: 1px solid rgba(255,255,255,0.2);
-                    border-bottom: 1px solid rgba(255,255,255,0.2);
+                    border-right: 1px solid $trans-color;
+                    border-bottom: 1px solid $trans-color;
                     box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
                     backdrop-filter: blur(2px);
                     border-radius: 10px;
@@ -45,13 +45,29 @@ footer{
                     &:hover::before{
                         transform: skewX(45deg) translateX(-150px);
                     }
+                    .fa-facebook-square:hover {
+                        color: #3b5998;
+                    }
+                    .fa-instagram:hover {
+                        color: #b144bb;
+                    }
+                    .fa-twitter-square:hover {
+                        color: #1da1f2;
+                    }
+                    .fa-linkedin:hover {
+                        color: #0077b5;
+                    }
                 }
             }
         }
     }
     #info{
-        @include flexible(flex-end);
+        @include flexible(center);
         flex-direction: column;
+        align-items: flex-end;
         color: $text-color;
+    }
+    .footer-container{
+        @include flexible(center);
     }
 }

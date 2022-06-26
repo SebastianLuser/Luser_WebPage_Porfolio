@@ -1,8 +1,15 @@
 #about{
     @extend .texts;
+    h2{
+        font-family: 'Courgette', cursive;
+        font-size: 2rem;
+    }
     h3{
         @include flexible(center);
-        font-size: 2rem;
+        font-size: 1.7rem;
+    }
+    h4{
+        font-size: 1.4rem;
     }
     #about__card{
         li{
@@ -17,6 +24,17 @@
                     @include dimensions(180px,240px);
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #about{
+        #about__text{
+            flex-direction: column;
+        }
+        .row{
+            flex-direction: column;
         }
     }
 }

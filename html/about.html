@@ -14,7 +14,7 @@
     <!--icon-->
     <script src="https://kit.fontawesome.com/a358678dcd.js" crossorigin="anonymous"></script>
     <!-- Style link -->
-    <link rel="stylesheet" href="./styles/css/style.css">
+    <link rel="stylesheet" href="../styles/css/style.css">
     <!-- Keywords y  descripcion-->
     <meta name="descripcion" content="A little bit about me, my skills and work experience"> 
     <meta name="keywords" content="HTML,CSS,Portfoio,Javascript,CV,Bootstrap,SCSS,SASS,Web Page">
@@ -28,7 +28,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <!-- LOGO -->
-                    <a class="navbar-brand" href="#"><img src="./Images/Logo.JPG" alt="Logo" width="240px"></a>
+                    <a class="navbar-brand" href="#"><img src="../Images/Logo.JPG" alt="Logo" width="240px"></a>
                     <!-- NAV -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -36,19 +36,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto nav-pills" id="lista">
                             <li class="nav-item ">
-                                <a href="index.html" class="nav-link ">Home</a>
+                                <a aria-current="page" href="../index.html" class="nav-link ">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="About.html" class="nav-link">About Me</a>
+                                <a aria-current="page" href="./about.html" class="nav-link">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Proyects.html" class="nav-link">Proyects</a>
+                                <a  aria-current="page" href="./proyects.html" class="nav-link">Proyects</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Resume.html" class="nav-link">Resume</a>
+                                <a aria-current="page" href="./resume.html" class="nav-link">Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Contact.html" class="nav-link">Contact</a>
+                                <a aria-current="page" href="./contact.html" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -59,14 +59,15 @@
         <main>
             <div class="container" id="about">
                 <div class="row ">
-                    <h3 class="mb-3">About Me</h3>
+                    <h2 >About Me</h2>
                     <div class="card b-3" id="about__card">
                         <div class="card-body">
                             <div class="mx-3" id="about__text">
                                 <div id="about__perfil">
-                                    <img src="Images/WhatsApp Image 2022-04-22 at 6.48.43 PM.jpeg" alt="Perfil" >
+                                    <img src="../Images/Perfil.jpeg" alt="Perfil" >
                                 </div>
-                                <p>Estudiante de Ingeniería en Sistemas en UTN con formación en Electrónica de la escuela secundaria ORT. Me interesa el desarrollo de software enfocado en el web development con un plan a futuro de desarrolarme como FullStack para web3.0, tambien me interesa el desarrollo de videojuegos y lo que lo rodea. En mi tiempo libre, juego a videojuegos, miro series y peliculas y aprendo nuevas herramientas.Me gusta estar constantemente aprendiendo cosas nuevas. 
+                                <p>Estudiante de Ingeniería en Sistemas de información en la Universidad Tecnologica Nacional. Soy egresado de la Escuela Secundaria ORT con título de Bachiller Técnico con orientación en Electrónica. Me interesa el desarrollo de software enfocado en web development con un plan a futuro de desarrolarme como FullStack para Web 3.0, también me interesa el desarrollo de videojuegos y toda la actvidad asociada. En mi tiempo libre, juego a videojuegos, miro series y películas. Disfruto de aprender nuevas herramientas tecnológicas.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -92,8 +93,8 @@
                         </div>
                     </div>
                     <div class="col my-2">
-                        <h3 id="about__skills">Skills</h3>
-                        <div class="card b-3" id="about__card">
+                        <h3 class="mb-3" id="about__skills">Skills</h3>
+                        <div class="card m-1" id="about__card">
                             <div class="card-body">
                                 <div class="mx-3">
                                     <h4>Front End</h4>
@@ -105,7 +106,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card b-3" id="about__card">
+                        <div class="card m-1" id="about__card">
                             <div class="card-body">
                                 <div class="mx-3">
                                     <h4>Lenguages</h4>
@@ -136,6 +137,9 @@
                     <p>sebastianv.08.2000@gmail.com</p>
                     <p>+54-011-50387535</p>
                 </section>
+            </div>
+            <div class="footer-container">
+                <small>&copy; 2022 <b>Luser Sebastian</b> - Todos los Derechos Reservados.</small>
             </div>
     </footer>
     </div>

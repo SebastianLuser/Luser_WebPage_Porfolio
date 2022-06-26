@@ -14,7 +14,7 @@
     <!--icon-->
     <script src="https://kit.fontawesome.com/a358678dcd.js" crossorigin="anonymous"></script>
     <!-- Style link -->
-    <link rel="stylesheet" href="./styles/css/style.css">
+    <link rel="stylesheet" href="../styles/css/style.css">
     <!-- Keywords y  descripcion-->
     <meta name="descripcion" content="If you wanna contact me through a form"> 
     <meta name="keywords" content="HTML,CSS,Portfoio,Javascript,CV,Bootstrap,SCSS,SASS,Web Page">
@@ -28,7 +28,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <!-- LOGO -->
-                    <a class="navbar-brand" href="#"><img src="./Images/Logo.JPG" alt="Logo" width="240px"></a>
+                    <a class="navbar-brand" href="#"><img src="../Images/Logo.JPG" alt="Logo" width="240px"></a>
                     <!-- NAV -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -36,19 +36,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto nav-pills" id="lista">
                             <li class="nav-item ">
-                                <a href="index.html" class="nav-link ">Home</a>
+                                <a aria-current="page" href="../index.html" class="nav-link ">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="About.html" class="nav-link">About Me</a>
+                                <a aria-current="page" href="./about.html" class="nav-link">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Proyects.html" class="nav-link">Proyects</a>
+                                <a  aria-current="page" href="./proyects.html" class="nav-link">Proyects</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Resume.html" class="nav-link">Resume</a>
+                                <a aria-current="page" href="./resume.html" class="nav-link">Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Contact.html" class="nav-link">Contact</a>
+                                <a aria-current="page" href="./contact.html" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -59,7 +59,7 @@
         <main>
             <div class="container-fluid">
                 <div class="row" >
-                    <div class="offset-4 col-4 p-1"  >
+                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 offset-md-3 col-md-6 offset-sm-1 col-sm-10 p-1"  >
                         <h2>Contact</h2>
                         <form class="rounded" id="form" >
                             <div class="mb-3">
@@ -68,15 +68,15 @@
                                 <div id="nas" class="form-text"></div>
                             </div>
                             <div class="mb-3" >
-                                <label for="exampleInputEmail1" class="form-label"><p>Direccion de Email</p></label>
+                                <label for="exampleInputEmail1" class="form-label"><p>Dirección de Email</p></label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputAsuntoYDescripcion1" class="form-label"><p>Asunto y descripcion</p></label>
+                                <label for="exampleInputAsuntoYDescripcion1" class="form-label"><p>Asunto y descripción</p></label>
                                 <textarea type="input" class="form-control" id="exampleInputAsuntoYDescripcion1"></textarea>
                             </div>
                             <div class="mb-3">
-                                <label for="exampleInputOrganizacion1" class="form-label"><p>Organizacion representada</p></label>
+                                <label for="exampleInputOrganizacion1" class="form-label"><p>Organización representada</p></label>
                                 <input type="input" class="form-control" id="exampleInputOrganizacion1">
                             </div>
                             <div class="form-check">
@@ -112,6 +112,9 @@
                     <p>sebastianv.08.2000@gmail.com</p>
                     <p>+54-011-50387535</p>
                 </section>
+            </div>
+            <div class="footer-container">
+                <small>&copy; 2022 <b>Luser Sebastian</b> - Todos los Derechos Reservados.</small>
             </div>
         </footer>
     </div>

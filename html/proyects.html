@@ -14,7 +14,7 @@
     <!--icon-->
     <script src="https://kit.fontawesome.com/a358678dcd.js" crossorigin="anonymous"></script>
     <!-- Style link -->
-    <link rel="stylesheet" href="./styles/css/style.css">
+    <link rel="stylesheet" href="../styles/css/style.css">
     <!-- Keywords y  descripcion-->
     <meta name="descripcion" content="Some of my proyects throughout my life"> 
     <meta name="keywords" content="HTML,CSS,Portfoio,Javascript,CV,Bootstrap,SCSS,SASS,Web Page">
@@ -28,7 +28,7 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <!-- LOGO -->
-                    <a class="navbar-brand" href="#"><img src="./Images/Logo.JPG" alt="Logo" width="240px"></a>
+                    <a class="navbar-brand" href="#"><img src="../Images/Logo.JPG" alt="Logo" width="240px"></a>
                     <!-- NAV -->
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -36,19 +36,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav mx-auto nav-pills" id="lista">
                             <li class="nav-item ">
-                                <a href="index.html" class="nav-link ">Home</a>
+                                <a aria-current="page" href="../index.html" class="nav-link ">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a href="About.html" class="nav-link">About Me</a>
+                                <a aria-current="page" href="./about.html" class="nav-link">About Me</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Proyects.html" class="nav-link">Proyects</a>
+                                <a  aria-current="page" href="./proyects.html" class="nav-link">Proyects</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Resume.html" class="nav-link">Resume</a>
+                                <a aria-current="page" href="./resume.html" class="nav-link">Resume</a>
                             </li>
                             <li class="nav-item">
-                                <a href="Contact.html" class="nav-link">Contact</a>
+                                <a aria-current="page" href="./contact.html" class="nav-link">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -59,7 +59,7 @@
         <main>
             <div class="container-fluid p-5">
                 <div class="row">
-                    <div class="offset-lg-3 col-lg-6 offset-md-2 col-md-8 offset-sm-1 col-sm-10">
+                    <div class="offset-xxl-3 col-xxl-6 offset-xl-2 col-xl-8 offset-lg-2 col-lg-8 offset-md-2 col-md-8 offset-sm-1 col-sm-10">
                         <h2>My Proyects</h2>
                         <div  class="carousel slide" data-bs-ride="true" id="carousel">
                             <div class="carousel-indicators">
@@ -69,23 +69,23 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="row">
-                                        <div class="col-lg-6" >
+                                        <div class="col-xl-6" >
                                             <a href="#"><h3>Handraw Wireframes</h3></a>
-                                            <p>Cree el diseño en forma de boceto de como es que queria que la pagina quede antes de empezara trabajar en ella</p>
+                                            <p>Creé el diseño de mi página web en forma de boceto de cómo es que quería que la misma quede antes de que empezara a trabajar en ella</p>
                                         </div>
-                                        <div class=" col-lg-6 ">
-                                            <img src="./Images/Captura2.JPG" class="img-thumbnail">
+                                        <div class=" col-xl-6 ">
+                                            <img src="../Images/Handraw.JPG" alt="Handraw" class="img-thumbnail">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="row">
-                                        <div class="col-lg-6" >
+                                        <div class="col-xl-6" >
                                             <a href="#"><h3>Figma Wireframes</h3></a>
-                                            <p>Cree el diseño con la herramienta Figma de como es que queria que la pagina quede antes de empezara trabajar en ella</p>
+                                            <p>Creé el diseño de mi página web con la herramienta Figma de cómo es que quería que la misma quede antes de que empezara a trabajar en ella</p>
                                         </div>
-                                        <div class="col-lg-6">
-                                            <img src="./Images/Captura.JPG"  class="img-thumbnail">
+                                        <div class="col-xl-6">
+                                            <img src="../Images/Figma.JPG" alt="Figma"  class="img-thumbnail">
                                         </div>
                                     </div>        
                                 </div>
@@ -118,6 +118,9 @@
                     <p>sebastianv.08.2000@gmail.com</p>
                     <p>+54-011-50387535</p>
                 </section>
+            </div>
+            <div class="footer-container">
+                <small>&copy; 2022 <b>Luser Sebastian</b> - Todos los Derechos Reservados.</small>
             </div>
     </footer>
     </div>

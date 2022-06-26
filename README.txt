@@ -1,0 +1,2 @@
+En la seccion de los proyectos, los titulos de cada proyecto tiene un HREF que no llevan a nada, 
+ya que tengo pensado que los proyectos mas grandes tengan un link vinculado al titulo para poder verlos mejor
