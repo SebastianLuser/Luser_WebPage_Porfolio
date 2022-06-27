@@ -21,3 +21,32 @@ main{
         }
     }
 }
+@media screen and (max-width: 600px) {
+    main{
+        #carousel{
+            img{
+                @include dimensions(320px,280px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    main{
+        #carousel{
+            img{
+                @include dimensions(280px,220px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    main{
+        #carousel{
+            img{
+                @include dimensions(140px,120px);
+            }
+        }
+    }
+}
